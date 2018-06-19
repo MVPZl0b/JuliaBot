@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.garbage</groupId>
-    <artifactId>MotherBot</artifactId>
+    <artifactId>JuliaBot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -70,7 +70,7 @@
 
     <build>
         <directory>target</directory>
-        <finalName>MotherBot</finalName>
+        <finalName>JuliaBot</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf331b85-7350-49c1-9d43-1bdbf8b718fc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/maven-theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/site.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-convergence.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/close.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/collapsed.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/expanded.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/external.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/newwindow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JuliaBot.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/MotherBot.iml" afterPath="$PROJECT_DIR$/JuliaBot.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/file/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -51,8 +34,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+            <state relative-caret-position="1377">
+              <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -61,24 +44,10 @@
       <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/DatabaseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="833">
               <caret line="97" column="56" lean-forward="false" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/MySQL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1967#1968#0" expanded="true" />
-                <element signature="e#1996#1997#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="834">
+            <state relative-caret-position="1037">
               <caret line="61" column="58" lean-forward="false" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -195,13 +164,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zack/motherbot/module/command/CommandListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/MySQL.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/DatabaseInfo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/settings.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/zack/motherbot/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zack/motherbot/listeners/ReadyEventListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zack/motherbot/module/command/GameCommand.java" />
         <option value="$PROJECT_DIR$/src/main/resources/langs/ENGLISH.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -217,26 +186,26 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MotherBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="JuliaBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MotherBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="JuliaBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MotherBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="JuliaBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MotherBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="JuliaBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MotherBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="JuliaBot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
           <item name="com.github.discord4j:Discord4J:2.10.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
@@ -271,29 +240,29 @@
         <subPane>
           <expand>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -301,7 +270,7 @@
               <item name="motherbot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -310,7 +279,7 @@
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -319,7 +288,7 @@
               <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -328,7 +297,7 @@
               <item name="listeners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -337,7 +306,7 @@
               <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -346,7 +315,7 @@
               <item name="module" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -356,7 +325,7 @@
               <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -365,7 +334,7 @@
               <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -374,14 +343,14 @@
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MotherBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuliaBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MotherBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -398,9 +367,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TicketBird-Discord-Bot" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -483,6 +452,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MotherBot" />
+      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -577,6 +558,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -585,9 +567,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17065218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17065218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -932,14 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -948,24 +922,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1967#1968#0" expanded="true" />
             <element signature="e#1996#1997#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/file/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/DatabaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="97" column="56" lean-forward="false" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1010,9 +966,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
+        <state relative-caret-position="1037">
           <caret line="61" column="58" lean-forward="false" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1020,10 +984,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="1377">
+          <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuliaBot.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotherBot.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="97" column="56" lean-forward="false" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zack/motherbot/file/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1081,7 +1079,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MotherBot</last-edited>
+          <last-edited>JuliaBot</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
