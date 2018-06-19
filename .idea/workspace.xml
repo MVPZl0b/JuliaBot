@@ -2,28 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf331b85-7350-49c1-9d43-1bdbf8b718fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/Database.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/DatabaseInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/DatabaseManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/database/MySQL.java" />
-      <change beforePath="$PROJECT_DIR$/MotherBot.iml" afterPath="$PROJECT_DIR$/MotherBot.iml" />
-      <change beforePath="$PROJECT_DIR$/logs/18-06-2018-10.15.02-api.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/18-06-2018-10.15.02-debug.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/18-06-2018-10.15.02-exceptions.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/settings.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/listeners/ReadyEventListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/listeners/ReadyEventListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/module/command/CommandListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/module/command/CommandListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/module/command/GameCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/module/command/GameCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/objects/guild/GuildSettings.java" afterPath="$PROJECT_DIR$/src/main/java/com/zack/motherbot/objects/guild/GuildSettings.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/langs/ENGLISH.json" afterPath="$PROJECT_DIR$/src/main/resources/langs/ENGLISH.json" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zack/motherbot/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/zack/motherbot/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zack/motherbot/objects/bot/BotSettings.class" afterPath="$PROJECT_DIR$/target/classes/com/zack/motherbot/objects/bot/BotSettings.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zack/motherbot/objects/guild/GuildSettings.class" afterPath="$PROJECT_DIR$/target/classes/com/zack/motherbot/objects/guild/GuildSettings.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/langs/ENGLISH.json" afterPath="$PROJECT_DIR$/target/classes/langs/ENGLISH.json" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/maven-theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/site.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-convergence.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/close.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/collapsed.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/expanded.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/external.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/newwindow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/langs/ENGLISH.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -583,9 +585,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17065218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17065218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -987,7 +989,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/langs/ENGLISH.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>

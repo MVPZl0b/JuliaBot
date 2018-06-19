@@ -1,7 +1,8 @@
 {
   "Language": "ENGLISH",
 
-  "Notification.Game.Added":"You have successfully been added into the %game% role!",
+  "Notification.Game.Remove": "You have been removed from the %game% role",
+  "Notification.Game.Added": "You have successfully been added into the %game% role!",
   "Notification.Game.Unknown": "The game you specified does not exist, Please use !game list to see a list!",
   "Notification.Args.Few": "You must specify a function to execute! Use '!help` for a full list of valid commands and functions!",
   "Notification.Args.Invalid": "Invalid function! Please view `!help` for a full list of valid commands and functions!",
