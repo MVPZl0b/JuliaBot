@@ -1,6 +1,7 @@
 package com.zack.motherbot.module.command;
 
 import com.zack.motherbot.Main;
+import com.zack.motherbot.database.DatabaseManager;
 import com.zack.motherbot.logger.Logger;
 import com.zack.motherbot.objects.guild.GuildSettings;
 import sx.blah.discord.api.events.EventSubscriber;
@@ -13,7 +14,7 @@ class CommandListener {
     private CommandExecutor cmd;
 
     /**
-     * Creates a new CommandListener listener.
+     * Creates a new CommandListener listeners.
      *
      * @param _cmd The CommandExecutor instance to use.
      */
@@ -31,9 +32,9 @@ class CommandListener {
         try {
             if (event.getMessage() != null && event.getGuild() != null && event.getChannel() != null && !event.getChannel().isPrivate() && event.getMessage().getContent() != null && event.getMessage().getContent().length() > 0) {
                 //Message is a valid guild message (not DM). Check if in correct channel.
-                GuildSettings settings = GuildSettings.instance.getGuildSettings(event.getGuild().getLongID());
+                GuildSettings settings = DatabaseManager.getManager().getSettings(event.getGuild().getLongID());
 
-                if (event.getMessage().getContent().startsWith(settings.getPrefix())) {
+                if (event.getMessage().getContent().startsWith("!")) {
                     //Prefixed with prefix which should mean it is a command, convert and confirm.
                     String[] argsOr = event.getMessage().getContent().split("\\s+");
                     if (argsOr.length > 1) {

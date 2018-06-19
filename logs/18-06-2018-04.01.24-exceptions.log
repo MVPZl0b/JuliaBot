@@ -1,0 +1,34 @@
+INIT --- 18-06-2018-04.01.24 ---
+ERROR --- 2018/06/18 16:01:32 ---
+message: Connecting to MySQL server failed.
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:676)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:663)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:653)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:638)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:606)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:624)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:620)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:1734)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1658)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:662)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:221)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.zack.motherbot.database.MySQL.openConnection(MySQL.java:59)
+	at com.zack.motherbot.database.DatabaseManager.connectToMySQL(DatabaseManager.java:35)
+	at com.zack.motherbot.Main.main(Main.java:50)
+Caused by: com.mysql.cj.core.exceptions.InvalidConnectionAttributeException: The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:54)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:73)
+	at com.mysql.cj.jdbc.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:118)
+	at com.mysql.cj.mysqla.MysqlaSession.configureTimezone(MysqlaSession.java:315)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:2446)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:1699)
+	... 9 more
+

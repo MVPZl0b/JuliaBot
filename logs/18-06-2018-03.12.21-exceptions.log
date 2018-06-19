@@ -1,0 +1,8 @@
+INIT --- 18-06-2018-03.12.21 ---
+ERROR --- 2018/06/18 15:12:23 ---
+message: Failed to load lang files!
+java.lang.NullPointerException
+	at com.zack.motherbot.file.ReadFile.readAllLangFiles(ReadFile.java:22)
+	at com.zack.motherbot.message.MessageManager.loadLangs(MessageManager.java:28)
+	at com.zack.motherbot.Main.main(Main.java:51)
+

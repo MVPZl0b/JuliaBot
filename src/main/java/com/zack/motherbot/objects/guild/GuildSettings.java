@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter @Setter
 public class GuildSettings {
-    public static GuildSettings instance;
+    @Getter public static GuildSettings instance;
     private final long guildID;
 
     private String lang;
@@ -14,7 +14,7 @@ public class GuildSettings {
     private long staticMessage;
 
 
-    public GuildSettings(long _guildId) {
+     public GuildSettings(long _guildId) {
         guildID = _guildId;
 
         lang = "ENGLISH";
@@ -22,10 +22,4 @@ public class GuildSettings {
 
     }
 
-    public GuildSettings getGuildSettings(long guildId) {
-        GuildSettings settings = new GuildSettings(guildId);
-        settings.setLang("ENGLISH");
-        settings.setPrefix("!");
-        return settings;
-    }
 }
